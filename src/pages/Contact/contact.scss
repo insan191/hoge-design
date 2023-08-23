@@ -1,0 +1,113 @@
+.contact {
+	padding: 100px 0;
+	&__ttl {
+		text-align: center;
+		margin-bottom: 50px;
+		h3 {
+			font-weight: 500;
+			font-size: 1.5rem;
+			letter-spacing: 2px;
+			line-height: 2.5rem;
+		}
+	}
+	&__form {
+		background-color: #f7f7f7;
+		padding: 80px;
+		border-radius: 25px;
+		display: flex;
+		flex-direction: column;
+		button {
+			margin: 40px auto 0;
+		}
+		&-box {
+			margin-bottom: 30px;
+		}
+		&-ttl {
+			display: flex;
+			align-items: center;
+			margin-bottom: 15px;
+			h5 {
+				font-size: 2rem;
+				letter-spacing: 2px;
+				padding-right: 20px;
+			}
+			p {
+				font-weight: 700;
+				color: #4aadd3;
+			}
+		}
+		&-error {
+			margin-top: 15px;
+			p {
+				color: #f83131;
+			}
+		}
+		&-radio {
+			display: flex;
+			align-items: center;
+		}
+		&-radioItem {
+			display: flex;
+			align-items: center;
+			margin-right: 20px;
+			cursor: pointer;
+
+			input {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				appearance: none;
+				width: 18px;
+				height: 18px;
+				border: 1px solid #adb5bd;
+				border-radius: 50%;
+
+				&::after {
+					content: "";
+					position: absolute;
+					width: 8px;
+					height: 8px;
+					background-color: #4aadd3;
+					border-radius: 50%;
+					opacity: 0;
+				}
+
+				&:checked::after {
+					opacity: 1;
+				}
+			}
+
+			label {
+				padding-left: 5px;
+			}
+		}
+		&-input {
+			max-width: 350px;
+			&.is-desc {
+				max-width: 700px;
+			}
+			input,
+			textarea,
+			select {
+				&::placeholder {
+					color: #c2c2c2;
+				}
+				padding: 15px 20px;
+				width: 100%;
+				border-radius: 10px;
+				border: 1px solid #e0e0e0;
+				outline: none;
+				&.is-error {
+					border: 1px solid #f83131;
+				}
+			}
+			textarea {
+				resize: none;
+				height: 250px;
+			}
+		}
+	}
+}
+@media (max-width: 768px) {
+	@import "spContact";
+}

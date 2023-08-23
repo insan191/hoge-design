@@ -1,0 +1,12 @@
+.companyInfo {
+	&-ttl {
+		h3 {
+			font-size: 3.7rem;
+			text-decoration-thickness: 10px;
+			text-underline-offset: -12px;
+		}
+	}
+	&-txt {
+		max-width: 300px;
+	}
+}

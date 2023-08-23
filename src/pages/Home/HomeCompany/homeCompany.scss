@@ -1,0 +1,17 @@
+.homeCompany {
+	padding: 230px 0 200px;
+	text-align: center;
+	position: relative;
+	background-image: linear-gradient(
+		-4deg,
+		rgba(255, 255, 255, 1) 0% 15%,
+		rgba(238, 248, 251, 1) 15% 85%,
+		rgba(255, 255, 255, 1) 85% 100%
+	);
+	button {
+		margin-top: 50px;
+	}
+}
+@media (max-width: 768px) {
+	@import "spHomeCompany";
+}

@@ -1,0 +1,32 @@
+.contact {
+	padding-top: 50px;
+	&__form {
+		padding: 60px 30px;
+		button {
+			margin-top: 20px;
+			font-size: 1.3rem;
+		}
+		&-ttl {
+			h5 {
+				font-size: 1.5rem;
+			}
+		}
+		&-error {
+			font-size: 1.3rem;
+		}
+		&-radio {
+			flex-direction: column;
+			align-items: flex-start;
+		}
+		&-radioItem {
+			&:not(:last-child) {
+				margin-bottom: 15px;
+			}
+		}
+		&-input {
+			textarea {
+				height: 150px;
+			}
+		}
+	}
+}

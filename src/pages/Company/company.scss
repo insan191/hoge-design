@@ -1,0 +1,34 @@
+.companyDesc {
+	padding: 100px 0;
+}
+.companyProfile {
+	margin-bottom: 200px;
+	&__item {
+		padding: 30px;
+		border-bottom: 1px solid #dddddd;
+		display: grid;
+		grid-template-columns: 100px auto;
+		column-gap: 100px;
+	}
+	&__ttl {
+		h5 {
+			font-size: 1.5rem;
+			letter-spacing: 1px;
+		}
+	}
+	&__map {
+		margin-top: 100px;
+		img {
+			width: 100%;
+		}
+		&-txt {
+			padding-top: 10px;
+			p {
+				color: #4aafd5;
+			}
+		}
+	}
+}
+@media (max-width: 768px) {
+	@import "spCompany";
+}

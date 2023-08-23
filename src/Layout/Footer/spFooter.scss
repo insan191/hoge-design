@@ -1,0 +1,14 @@
+.footer {
+	&__menu {
+		&-item {
+			a {
+				font-size: 1.3rem;
+			}
+		}
+	}
+	&__copyright {
+		p {
+			font-size: 1rem;
+		}
+	}
+}

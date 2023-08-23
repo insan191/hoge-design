@@ -1,0 +1,9 @@
+.homeService {
+	padding: 100px 0 0;
+	&__items {
+		grid-template-columns: auto;
+	}
+	&__item {
+		width: 100%;
+	}
+}

@@ -1,0 +1,48 @@
+.homeEstimate {
+	padding: 0 20px 100px;
+	&__form {
+		padding: 60px 30px;
+		button {
+			margin-top: 20px;
+			font-size: 1.3rem;
+		}
+		&-ttl {
+			h5 {
+				font-size: 1.5rem;
+			}
+		}
+		&-error {
+			font-size: 1.3rem;
+		}
+	}
+	&__popup {
+		width: 90%;
+		padding-left: 20px;
+		padding-right: 20px;
+		&-ttl {
+			h5 {
+				font-size: 1.3rem;
+			}
+		}
+		&-sum {
+			p {
+				font-size: 3rem;
+			}
+		}
+		&-date {
+			p {
+				font-size: 1.3rem;
+			}
+		}
+		&-copy {
+			p {
+				font-size: 1.5rem;
+			}
+			&.is-Copied {
+				p {
+					font-size: 2rem;
+				}
+			}
+		}
+	}
+}

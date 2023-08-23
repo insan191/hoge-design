@@ -1,0 +1,32 @@
+.companyInfo {
+	margin-top: 50px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	&-ttl {
+		padding-bottom: 50px;
+		margin: 0 auto;
+		h3 {
+			font-size: 4.5rem;
+			letter-spacing: 3px;
+			line-height: 1.5;
+			z-index: 0;
+			text-decoration: underline;
+			text-decoration-color: #f5f534;
+			text-decoration-thickness: 15px;
+			text-underline-offset: 0;
+			padding: 0 5px;
+		}
+	}
+	&-txt {
+		max-width: 420px;
+		width: 100%;
+		p {
+			line-height: 3rem;
+		}
+	}
+}
+@media (max-width: 768px) {
+	@import "spCompanyInfo";
+}

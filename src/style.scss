@@ -1,0 +1,62 @@
+/* ============================================
+
+  curriculum05 - style.scss              
+
+-------------------------------------------- */
+
+/* -----[ fonts ]----- */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+
+/* -----[ base ]----- */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+	line-height: 1;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+	overflow-x: hidden;
+	color: #333;
+}
+button {
+	outline: none;
+	border: none;
+	cursor: pointer;
+	font-family: "Montserrat", sans-serif;
+}
+
+input,
+textarea {
+	font-family: "Montserrat", sans-serif;
+}
+
+a,
+label,
+p {
+	font-weight: 500;
+	font-size: 1.5rem;
+	letter-spacing: 1px;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #333;
+}
+
+ul {
+	list-style: none;
+}
+/* -----[ layouts ]----- */
+.container {
+	max-width: 1240px;
+	padding: 0 20px;
+	margin: 0 auto;
+}

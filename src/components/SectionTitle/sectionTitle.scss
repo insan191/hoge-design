@@ -1,0 +1,17 @@
+.section__ttl {
+	text-align: center;
+	h2 {
+		font-size: 4rem;
+		letter-spacing: 3px;
+		margin-bottom: 15px;
+		text-transform: uppercase;
+		color: #4aafd5;
+	}
+	h3 {
+		font-size: 2rem;
+		letter-spacing: 2px;
+	}
+}
+@media (max-width: 768px) {
+	@import "spSectionTitle";
+}

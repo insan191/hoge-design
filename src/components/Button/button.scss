@@ -1,0 +1,28 @@
+.btn {
+	font-size: 2rem;
+	font-weight: 700;
+	border-radius: 50px;
+	background-color: #4aafd5;
+	text-transform: uppercase;
+	padding: 27px 100px;
+	color: #fff;
+	transition: 0.3s ease-out;
+	&.is-outline {
+		background-color: transparent;
+		color: #fff;
+		border: 1px solid #fff;
+	}
+	&:hover {
+		background-color: #4bb3da;
+		box-shadow: 0px 3px 3px rgba(75, 180, 218, 0.5);
+		transform: translateY(-3px);
+		border-color: #4bb3da;
+	}
+	&:disabled {
+		background-color: #c9c9c9;
+		pointer-events: none;
+	}
+}
+@media (max-width: 768px) {
+	@import "spButton";
+}

@@ -1,0 +1,16 @@
+.companyDesc {
+	padding: 70px 20px;
+}
+.companyProfile {
+	&__item {
+		padding: 20px 0;
+		border-bottom: 1px solid #b8aed5;
+		grid-template-columns: auto;
+		row-gap: 15px;
+	}
+	&__map {
+		img {
+			content: url("../../assets/company/img-spMap.png");
+		}
+	}
+}
