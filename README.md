@@ -14,4 +14,4 @@
 - Install dependencies: `npm install`
 - Run the application: `npm run dev`
 
-![Screen](https://github.com/insan191/hoge-design/blob/main/hoge-designScreenshot.png)
+![Screen](https://github.com/insan191/hoge-gesign/blob/main/hoge-designScreenshot.png)
